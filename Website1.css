@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin : 0 auto;
+}
+
+
+.logo{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color:black;
+    margin-left: 10px;
+}
+main{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.BlogTitle{
+    text-align: center;
+    width: 60%;
+}
+
+.BlogTitle h1{
+    font-size: medium;
+    color: purple;
+    font-weight: bold;
+}
+ 
+.BlogTitle h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.BlogTitle p{
+    font-size: small;
+}
+
+.BlogDetails{
+   width: 70%; 
+   height: 400px;
+   display: flex;
+   justify-content: center;
+   justify-content: space-between;
+}
+
+.BlogDetails-1{
+    width: 50%;
+    height: 100%;
+}
+
+.BlogDetails-1 img{
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.BlogDetails-1 h2{
+    text-transform: uppercase;
+    color: purple;
+    font-size: small;
+    font-weight: bold;
+}
+
+.BlogDetails-1 h3{
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.BlogDetails-1 p {
+    font-size: small;
+    color: gray;
+
+}
+
+.BlogDetails-2{
+    width: 50%;
+    height: 100%;
+}
+
+.Box1{
+    display: flex;
+    height: 100px;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.Box1 img{
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+}
+
+.Box1 span{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box1 a{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: large;
+}
+
+.Box1 p{
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: small;
+    color: purple;
+}
+
+.Box1 hr{
+    width: 400px;
+
+}
+
+.BlogDetails3{
+    width: 70%; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+ }
+ 
+ .BlogDetails-3{
+     width: 50%;
+     height: 100%;
+ }
+ 
+ .BlogDetails-3 img{
+     height: 200px;
+     width: 450px;
+     object-fit: cover;
+ }
+ 
+ .BlogDetails-3 h2{
+     text-transform: uppercase;
+     color: purple;
+     font-size: small;
+     font-weight: bold;
+ }
+ 
+ .BlogDetails-3 h3{
+     text-transform: uppercase;
+     font-size: larger;
+     font-weight: 700;
+ }
+
+ .BlogDetails-3 p {
+    font-size: small;
+    color: gray ;
+
+}
+
+ .BlogDetails4{
+    width: 70%; 
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+ }
+ 
+ .BlogDetails-4{
+     width: 50%;
+     height: 100%;
+ }
+ 
+ .BlogDetails-4 img{
+     height: 200px;
+     width: 450px;
+     object-fit: cover;
+     justify-content: space-between;
+ }
+ 
+ .BlogDetails-4 h2{
+     text-transform: uppercase;
+     color: purple;
+     font-size: small;
+     font-weight: bold;
+ }
+ 
+ .BlogDetails-4 h3{
+     text-transform: uppercase;
+     font-size: larger;
+     font-weight: 700;
+ }
+
+ 
+ .BlogDetails-4 p {
+     font-size: small;
+     color: gray;
+     text-transform: lowercase;
+     width: 400px;
+
+
+ 
+ }
